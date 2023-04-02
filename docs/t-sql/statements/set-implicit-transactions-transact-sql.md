@@ -97,7 +97,7 @@ SET IMPLICIT_TRANSACTIONS { ON | OFF }
 
 &nbsp;
 
- When OFF, each of the preceding T-SQL statements is bounded by an unseen BEGIN TRANSACTION and an unseen COMMIT TRANSACTION statement. When OFF, we say the transaction mode is *autocommit*. If your T-SQL code visibly issues a BEGIN TRANSACTION, we say the transaction mode is *explicit*.  
+ When ON, each of the preceding T-SQL statements is bounded by an unseen BEGIN TRANSACTION and an unseen COMMIT TRANSACTION statement. When OFF, we say the transaction mode is *autocommit*. If your T-SQL code visibly issues a BEGIN TRANSACTION, we say the transaction mode is *explicit*.  
   
  There are several clarifying points to understand:  
   
